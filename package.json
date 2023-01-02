@@ -1,0 +1,80 @@
+{
+    "name": "github-updates-bot",
+    "version": "1.0.0",
+    "description": "Simple little bot for a cleaner looking Github Webhook Embed",
+    "main": "index.js",
+    "author": "TheRealToxicDev <https://toxicdev.me>",
+    "license": "MIT",
+    "engineStrict" : true,
+
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/InfinityBotList/GitHub-Updates-Bot.git"
+    },
+
+    "bugs": {
+        "url": "https://github.com/InfinityBotList/GitHub-Updates-Bot/issues"
+    },
+
+    "scripts": {
+      "start": "node index.js"
+    },
+
+    "engines" : { 
+        "node" : "16.x" 
+     },
+
+    "keywords": [
+        "Custom",
+        "Discord",
+        "GitHub",
+        "Bot"
+    ],
+
+    "homepage": "https://github.com/InfinityBotList/GitHub-Updates-Bot#readme",
+
+    "devDependencies": {
+      "rollup": "^0.35.11"
+    },
+  
+    "dependencies": {
+      "chalk": "^4.1.2",
+      "body-parser": "^1.15.2",
+      "discord.js": "^13.3.1",
+      "discord-api-types": "^0.24.0",
+      "@discordjs/rest": "^0.1.0-canary.0",
+      "ejs": "^3.1.5",
+      "express": "^4.17.1",
+      "express-session": "^1.17.1",
+      "fs": "^0.0.1-security",
+      "glob": "^7.1.7",
+      "module-alias": "^2.2.2",
+      "mongoose": "^6.0.12",
+      "moment": "^2.29.1",
+      "moment-duration-format": "^2.3.2",
+      "node-superfetch": "^0.2.3",
+      "systeminformation": "^5.8.0",
+      "request": "^2.74.0",
+      "rollup": "^0.35.11"
+    },
+
+    "_moduleAliases": {
+        "@Root": ".",
+        "@Discord": "./discord",
+        "@Cmds": "./discord/commands",
+        "@Database": "./mongoose",
+        "@DisUtils": "./discord/utils",
+        "@Embeds": "./discord/utils/embeds",
+        "@Express": "./server",
+        "@Git": "./github",
+        "@Images": "./discord/utils/images",
+        "@Colors": "./discord/utils/colors",
+        "@Utils": "./utilitys",
+        "@Templates": "./utilitys/temp",
+        "@Permissions": "./utilitys/discord",
+        "@Authorization": "./utilitys/auth",
+        "@Routes": "./website/routes",
+        "@Settings": "./settings",
+        "@modules": "./modules"
+    }
+  }

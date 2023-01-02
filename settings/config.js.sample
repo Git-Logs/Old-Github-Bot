@@ -1,0 +1,11 @@
+module.exports = {
+    port: process.env.PORT, // PORT for the Webserver
+    token: '', // process.env.TOKEN, // The Bots Discord Token
+    owner: '510065483693817867', // process.env.OWNER, // The Bot Owners Discord ID
+    client: '896602816838250549', // process.env.CLIENT, // The Discord Bot (Client) ID
+    mongoose: '', // process.env.MONGO, // Your Mongo DB Connection String
+    mainGuild: '870950609291972618', // process.env.GUILD, // Support Server ID
+    logChan: '913220698053439548', // process.env.LOGS // Channel ID for Logging
+    slashInvite: 'https://discord.com/api/oauth2/authorize?client_id=896602816838250549&permissions=543850626288&scope=bot%20applications.commands',
+    baseInvite: 'https://discord.com/api/oauth2/authorize?client_id=896602816838250549&permissions=543850626288&scope=bot'
+}
